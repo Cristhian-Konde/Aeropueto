@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="~/js/site.js"></script>
+<div class="text-center">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- Custom Theme files -->
+	<link href="./css/Style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- //Custom Theme files -->
+	<!-- web font -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+	<!-- //web font -->
+		<!-- main -->
+		<div class="main-w3layouts wrapper">
+			<h1>Movimientos Aeropuerto</h1>
+			<div class="main-agileinfo">
+				<div class="agileits-top">
+					<form action="#" method="post">
+						<input class="text" type="text" name="Matricula" placeholder="Matricula" id="Id_Matricula" required>
+					<input class="text" type="text" name="Tipo Avion" placeholder="Tipo Avion" id="Id_TipoAvion" required>
+					<input class="text" type="text" name="Aerolinea" placeholder="Aerolinea" id="Id_Aerolinea" required>
+						<input class="date" type="date" name="Fecha Aterrizaje" placeholder="Fecha Aterrizaje" id="Id_FechaA" required>
+					<input class="time" type="time" name="Hora Aterrizaje" placeholder="Hora Aterrizaje" id="Id_HoraA" required>
+					<input type="submit" value="Enviar" onclick="SaveMovimientos()">
+					</form>
+				</div>
+			</div>
+		</div>
+</div>
